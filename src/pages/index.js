@@ -156,7 +156,7 @@ export default function Home() {
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
-      <main className={`flex min-h-screen flex-col items-center justify-center p-24 ${inter.className}`}>
+      <main className={`flex min-h-screen flex-col items-center justify-center p-12 lg:p-24 ${inter.className}`}>
         <div className="w-full font-mono text-sm relative">
           {/* Title Section */}
           <div className="lg:absolute lg:top-0 lg:left-0 lg:text-left">
@@ -167,7 +167,7 @@ export default function Home() {
             <p className="max-w-sm mt-2 text-gray-400">
               Providing SAIS students with an experience that inspires, educates, and develops
             </p>
-            <SparklesText className="text-sm mb-2 text-gray-400" sparklesCount={4} text="future leaders in computer science." />
+            <SparklesText className="text-sm mb-4 text-gray-400" sparklesCount={4} text="future leaders in computer science." />
             <AvatarCircles numPeople={20} avatarUrls={avatarUrls} />
           </div>
           {/* Grid Section */}

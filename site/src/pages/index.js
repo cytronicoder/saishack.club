@@ -10,10 +10,10 @@ import {
   RocketIcon,
 } from "@radix-ui/react-icons";
 
-import { BentoCard, BentoGrid } from "@/components/magicui/bento-grid";
-import AvatarCircles from "@/components/magicui/avatar-circles";
-import SparklesText from "@/components/magicui/sparkles-text";
-import TypingAnimation from "@/components/magicui/typing-animation";
+import { BentoCard, BentoGrid } from "../components/magicui/bento-grid";
+import AvatarCircles from "../components/magicui/avatar-circles";
+import SparklesText from "../components/magicui/sparkles-text";
+import TypingAnimation from "../components/magicui/typing-animation";
 
 const inter = Inter({ subsets: ["latin"] });
 
